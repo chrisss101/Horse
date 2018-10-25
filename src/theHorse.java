@@ -1,7 +1,7 @@
-public class theHorse  {
+public class theHorse implements Horse  {
     private String name;
     private int weight;
-    public void Horse(name,weight) {
+    public theHorse(String name,int weight) {
         this.name = name;
         this.weight = weight;
     }
